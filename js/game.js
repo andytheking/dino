@@ -1,6 +1,7 @@
 const dino = document.getElementById('dino');
 const cactus = document.getElementById('cactus');
 
+
 document.addEventListener('keydown', function(event) {
   jump();
 });
@@ -21,4 +22,5 @@ let isAlive = setInterval( function() {
     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
       alert('Game over!');
     }
+    
 }, 10);

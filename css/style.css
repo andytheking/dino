@@ -28,6 +28,14 @@
   animation: cactusMov 1s infinite linear;
 }
 
+#scoreView {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: 600;
+  position: relative;
+  bottom: -100px;
+}
+
 @keyframes cactusMov {
   0% {
     left: 570px;
